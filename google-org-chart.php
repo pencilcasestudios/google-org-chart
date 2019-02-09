@@ -2,7 +2,7 @@
 /*
 Plugin Name: Google Org Chart
 Description: Shortcode plugin for simpler generation of org charts using Google's org chart API.
-Version: 1.0.2
+Version: 1.0.4
 Author: Aleksandar Arsovski
 License: GPL2
 */
@@ -59,7 +59,7 @@ function google_org_chart_shortcode( $attr, $content ) {
 
 	// Starting off the return string with the set up needed before nodes are introduces
 	$return_string = "
-	<script type='text/javascript' src='www.google.com/jsapi'></script>
+	<script type='text/javascript' src='//www.google.com/jsapi'></script>
 	<script type='text/javascript'>
     		google.load('visualization', '1', {packages: ['orgchart']});
     	</script>
