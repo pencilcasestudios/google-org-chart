@@ -59,7 +59,7 @@ function google_org_chart_shortcode( $attr, $content ) {
 
 	// Starting off the return string with the set up needed before nodes are introduces
 	$return_string = "
-	<script type='text/javascript' src='https://www.google.com/jsapi'></script>
+	<script type='text/javascript' src='www.google.com/jsapi'></script>
 	<script type='text/javascript'>
     		google.load('visualization', '1', {packages: ['orgchart']});
     	</script>
