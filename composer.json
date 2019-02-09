@@ -1,0 +1,17 @@
+{
+	"name": "pencilcasestudios/google-org-chart",
+	"description": "This plugin allows the generation of a Google org chart through the use of shortcodes.",
+	"homepage": "https://github.com/pencilcasestudios/google-org-chart",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Silumesii Maboshe",
+			"email": "hello@pencilcasestudios.com",
+			"homepage": "http://pencilcasestudios.com"
+		}
+	],
+	"type": "wordpress-plugin",
+	"require": {
+		"php": ">=5.3.2"
+	}
+}
